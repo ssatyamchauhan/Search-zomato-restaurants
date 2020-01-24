@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Search-zomato-restaurants/static/css/main.4a21e2d7.chunk.css",
-    "main.js": "/Search-zomato-restaurants/static/js/main.06ada53a.chunk.js",
-    "main.js.map": "/Search-zomato-restaurants/static/js/main.06ada53a.chunk.js.map",
-    "runtime-main.js": "/Search-zomato-restaurants/static/js/runtime-main.b1c65224.js",
-    "runtime-main.js.map": "/Search-zomato-restaurants/static/js/runtime-main.b1c65224.js.map",
-    "static/js/2.8f1caf47.chunk.js": "/Search-zomato-restaurants/static/js/2.8f1caf47.chunk.js",
-    "static/js/2.8f1caf47.chunk.js.map": "/Search-zomato-restaurants/static/js/2.8f1caf47.chunk.js.map",
-    "index.html": "/Search-zomato-restaurants/index.html",
-    "precache-manifest.e5d55513f352480682c63069109e25dd.js": "/Search-zomato-restaurants/precache-manifest.e5d55513f352480682c63069109e25dd.js",
-    "service-worker.js": "/Search-zomato-restaurants/service-worker.js",
-    "static/css/main.4a21e2d7.chunk.css.map": "/Search-zomato-restaurants/static/css/main.4a21e2d7.chunk.css.map",
-    "static/js/2.8f1caf47.chunk.js.LICENSE": "/Search-zomato-restaurants/static/js/2.8f1caf47.chunk.js.LICENSE"
+    "main.css": "/static/css/main.4a21e2d7.chunk.css",
+    "main.js": "/static/js/main.e07c5329.chunk.js",
+    "main.js.map": "/static/js/main.e07c5329.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.76c3353d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.76c3353d.js.map",
+    "static/js/2.8f1caf47.chunk.js": "/static/js/2.8f1caf47.chunk.js",
+    "static/js/2.8f1caf47.chunk.js.map": "/static/js/2.8f1caf47.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.31a4fbf8bfeebb852b20cf4cded52293.js": "/precache-manifest.31a4fbf8bfeebb852b20cf4cded52293.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4a21e2d7.chunk.css.map": "/static/css/main.4a21e2d7.chunk.css.map",
+    "static/js/2.8f1caf47.chunk.js.LICENSE": "/static/js/2.8f1caf47.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.b1c65224.js",
+    "static/js/runtime-main.76c3353d.js",
     "static/js/2.8f1caf47.chunk.js",
     "static/css/main.4a21e2d7.chunk.css",
-    "static/js/main.06ada53a.chunk.js"
+    "static/js/main.e07c5329.chunk.js"
   ]
 }
