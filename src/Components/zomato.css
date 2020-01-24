@@ -1,0 +1,177 @@
+.body {
+  margin: 0 auto;
+}
+/* Card is the div which wraps all other div which holds restaurants details  */
+
+.Card {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 1%;
+  height: 40%;
+  padding: 20px;
+  /* background: #f0e68c; */
+  border: 2px solid lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Under the article I have each div of restaurants */
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main container of Image Quality with Details*/
+
+.first-div {
+  padding-left: 10px;
+  display: flex;
+}
+.img {
+  float: left;
+  width: 25%;
+  height: 130px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* This div is gonna holds the restaurant name, location, and rationgs*/
+
+.img-details {
+  display: flex;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.details {
+  width: 100%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.restaurant-name {
+  color: #e31045;
+}
+.restaurant-place {
+  color: grayx;
+}
+
+.ratings {
+  color: green;
+  font-size: large;
+  font-weight: bold;
+  float: right;
+}
+
+/* Divider the middle div where divider has been placed*/
+
+.divider {
+  position: relative;
+  margin-top: 20px;
+  height: 1px;
+}
+
+.div-transparent:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgb(48, 49, 51),
+    transparent
+  );
+}
+
+/* The text div where restaurant's basic details are mentioned */
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.Row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.inputCard {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 5%;
+  border: 2px solid lightblue;
+}
+
+.inputCards {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 5%;
+    border: 2px solid lightblue;
+  }
+
+@media only screen and (max-width: 960px) {
+  .Card {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+    height: 40%;
+    padding: 20px;
+    /* background: #f0e68c; */
+    border: 2px solid lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .inputCard {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 5%;
+    border: 2px solid lightblue;
+  }
+  
+  .inputCards {
+      display: flex;
+      justify-content: center;
+      width: 80%;
+      padding: 20px;
+      margin: 0 auto;
+      margin-top: 5%;
+      border: 2px solid lightblue;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    span{
+        font-weight: unset;
+        font-size: 10px;
+    }
+    .first-div {
+        display: flex;
+        flex-direction: column;
+    }
+    .img {
+        width: 100%;
+        height: 30%
+    }
+    img {
+        width: 100%;
+    }
+}
