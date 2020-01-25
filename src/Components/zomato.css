@@ -16,6 +16,10 @@
   justify-content: center;
 }
 
+h1 {
+    text-align: center;
+}
+
 /* Under the article I have each div of restaurants */
 
 article {
@@ -110,7 +114,7 @@ img {
   width: 50%;
   padding: 20px;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 1%;
   border: 2px solid lightblue;
 }
 
@@ -159,6 +163,17 @@ img {
 }
 
 @media only screen and (max-width: 760px) {
+    .Card {
+        width: 86%;
+        margin: 0 auto;
+        margin-top: 5%;
+        height: 40%;
+        padding: 20px;
+        border: 2px solid lightblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
     span{
         font-weight: unset;
         font-size: 10px;
