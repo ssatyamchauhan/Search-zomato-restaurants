@@ -10,7 +10,7 @@ export default function Zomato() {
         responseStatus: 'Yet You have not Entered Any Location Please Enter location Above to find out the Nearby Zomato Restaurants'
     })
 
-    let getLocationLattitude = async (city) => {
+    let getLocationLattitude = (city) => {
         return axios({
             method: "GET",
             url: `https://developers.zomato.com/api/v2.1/locations?query=${city}`,
