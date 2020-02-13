@@ -15,7 +15,7 @@ export default function Zomato() {
             method: "GET",
             url: `https://developers.zomato.com/api/v2.1/locations?query=${city}`,
             headers: {
-                "user-key": "ff4f897b8bc0d97ccd3ed25a6b951fd3",
+                "user-key": "Enter your user api key",
                 "content-type": "application/json"
             }
         })
@@ -50,7 +50,7 @@ export default function Zomato() {
                         method: "GET",
                         url: `https://developers.zomato.com/api/v2.1/search?entity_id=${response.cityId}&entity_type=city&start=1&count=20&lat=${response.lati}&lon=${response.long}`,
                         headers: {
-                            "user-key": "ff4f897b8bc0d97ccd3ed25a6b951fd3",
+                            "user-key": "Enter your user zomata api key",
                             "content-type": "application/json"
                         }
                     })
