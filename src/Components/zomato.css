@@ -10,14 +10,32 @@
   height: 40%;
   padding: 20px;
   /* background: #f0e68c; */
-  border: 2px solid lightblue;
+  border: 2px solid #f5abab;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  border-radius: 25px 70px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.progress-bar {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 1%;
+  height: 40%;
+  padding: 20px;
+  display: flex;
   justify-content: center;
 }
 
 h1 {
-    text-align: center;
+  color: #e31045;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: red;
 }
 
 /* Under the article I have each div of restaurants */
@@ -41,6 +59,7 @@ article {
 img {
   width: 100%;
   height: 100%;
+  border-radius: 15px 50px;
 }
 
 /* This div is gonna holds the restaurant name, location, and rationgs*/
@@ -115,18 +134,18 @@ img {
   padding: 20px;
   margin: 0 auto;
   margin-top: 1%;
-  border: 2px solid lightblue;
+  border: 2px solid #f5abab;
 }
 
 .inputCards {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    padding: 20px;
-    margin: 0 auto;
-    margin-top: 5%;
-    border: 2px solid lightblue;
-  }
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 5%;
+  border: 2px solid #f5abab;
+}
 
 @media only screen and (max-width: 960px) {
   .Card {
@@ -136,7 +155,7 @@ img {
     height: 40%;
     padding: 20px;
     /* background: #f0e68c; */
-    border: 2px solid lightblue;
+    border: 2px solid #f5abab;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,45 +167,46 @@ img {
     padding: 20px;
     margin: 0 auto;
     margin-top: 5%;
-    border: 2px solid lightblue;
+    border: 2px solid #f5abab;
   }
-  
+
   .inputCards {
-      display: flex;
-      justify-content: center;
-      width: 80%;
-      padding: 20px;
-      margin: 0 auto;
-      margin-top: 5%;
-      border: 2px solid lightblue;
-    }
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 5%;
+    border: 2px solid #f5abab;
+  }
 }
 
 @media only screen and (max-width: 760px) {
-    .Card {
-        width: 86%;
-        margin: 0 auto;
-        margin-top: 5%;
-        height: 40%;
-        padding: 20px;
-        border: 2px solid lightblue;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-    span{
-        font-weight: unset;
-        font-size: 10px;
-    }
-    .first-div {
-        display: flex;
-        flex-direction: column;
-    }
-    .img {
-        width: 100%;
-        height: 30%
-    }
-    img {
-        width: 100%;
-    }
+  .Card {
+    width: 86%;
+    margin: 0 auto;
+    margin-top: 5%;
+    height: 40%;
+    padding: 20px;
+    border: 2px solid #f5abab;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  span {
+    font-weight: unset;
+    font-size: 10px;
+  }
+  .first-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .img {
+    width: 100%;
+    height: 30%;
+  }
+  img {
+    width: 100%;
+    border-radius: 25px 70px;
+  }
 }
