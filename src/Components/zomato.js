@@ -43,7 +43,6 @@ export default function Zomato() {
 
     let searchRestaurant = async (event) => {
         if (event.key === 'Enter') {
-<<<<<<< HEAD
             setState({
                 ...state,
                 isSearch: true
@@ -58,38 +57,7 @@ export default function Zomato() {
                             headers: {
                                 "user-key": "ff4f897b8bc0d97ccd3ed25a6b951fd3",
                                 "content-type": "application/json"
-=======
 
-            await getLocationLattitude(event.target.value)
-                .then(response => {
-                    // console.log(response)
-                    axios({
-                        method: "GET",
-                        url: `https://developers.zomato.com/api/v2.1/search?entity_id=${response.cityId}&entity_type=city&start=1&count=20&lat=${response.lati}&lon=${response.long}`,
-                        headers: {
-                            "user-key": "Enter your user zomata api key",
-                            "content-type": "application/json"
-                        }
-                    })
-                        .then(response => {
-                            // console.log(response)
-                            let Mainlist = []
-                            let simplelist = {}
-                            let nearbyRest = response.data.restaurants;
-                            for (var i of nearbyRest) {
-                                simplelist.name = (i.restaurant.name)
-                                simplelist.average_cost_for_two = (i.restaurant.average_cost_for_two)
-                                simplelist.has_online_delivery = (i.restaurant.has_online_delivery) ? "Available" : "Not Available"
-                                simplelist.rating = (i.restaurant.user_rating.aggregate_rating)
-                                simplelist.cuisines = (i.restaurant.cuisines).split(',')
-                                simplelist.rating_text = (i.restaurant.user_rating.rating_text)
-                                simplelist.featured_image = i.restaurant.featured_image
-                                simplelist.location = i.restaurant.location.locality
-                                simplelist.timing = (i.restaurant.timings).split(',')
-                                simplelist.phone_numbers = (i.restaurant.phone_numbers).split(',')
-                                Mainlist.push(simplelist)
-                                simplelist = {}
->>>>>>> ffa4effcc2019385db8ca56e8d9ac9afcf702f8e
                             }
                         })
                             .then(response => {
